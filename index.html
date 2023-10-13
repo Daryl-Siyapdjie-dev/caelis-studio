@@ -68,25 +68,38 @@
   <rect  x="441.71" y="581.95" width="427.79" height="15.67"/></svg>
 
       </div>
-      <div class="bar">
-        <input type="checkbox" id="toggler">
+      
         <label for="toggler" class="toggler" >
           <i class="bx bxs-sun"></i>
           <i class="bx bx-moon"></i>
           <span class="ball"></span>
         </label>
-        
-        <a href="#partie1">Accuiel</a>
-        <a href="#partie2">Projets</a>
-        <a href="#partie3">A Propos</a>
-        <a href="#partie4">Contacts</a>
-
+        <div > 
+          <ul class="bar">
+            <li class="nav-item">
+        <a href="#partie1" class="nav-link">Accuiel</a>
+           </li>
+           <li class="nav-item">
+        <a href="#partie2" class="nav-link">Projets</a>
+          </li>
+          <li class="nav-item">
+        <a href="#partie3" class="nav-link">A Propos</a>
+          </li>
+          <li class="nav-item">
+        <a href="#partie4" class="nav-link">Contacts</a>
+          </li>
+      </ul>
+      </div>
+      <div class="hamburger">
+        <span class="barrn"></span>
+        <span class="barrn"></span>
+        <span class="barrn"></span>
       </div>
     </header>
     <div class="groupsection"> 
     <section class="reveal data-spy " id="partie1">
       
-      <p class="description reveal-1"> Nous dévellopons vos idées. </p>
+      <h2 class="description reveal-1"> Nous dévellopons vos idées. </h2>
       <p class="fisrtsoutitre reveal-2 "> Que désirez-vous aujourd'hui?</p>
       <div class="groupletter  ">
         <div class="letter1 reveal-1 "> <img src="public/icons/letter_l 1 (2).svg" alt="" > <p>Logiciel</p></div>
@@ -95,7 +108,7 @@
         <div class="letter4 reveal-4 "> <img src="public/icons/Group 2.svg" alt=""><p>Autre</p></div>
 
       </div>
-      <span class="decouvrir"><a href="#">Découvrir le site</a></span>
+      <span class="decouvrir"><a href="#partie2">Découvrir le site</a></span>
     </section>
 <section id="partie2" class="data-spy">
     <div class="your-class">
@@ -103,7 +116,7 @@
          <section class="aligne">
           <div class="descrip1">
             <span class="icologo"><img src="public/images/logo_styler.png" alt=""></span>
-            <span><p id="style">styler</p></span>
+            <span><h2 id="style">styler</h2></span>
           </div>
         <div class="textdescrp">
           
@@ -116,19 +129,19 @@
             
               <div class="button">
 
-                <button class="colorbut1"> 
+                <a href="https://apps.apple.com/fr/app/styler/id1610128696" class="colorbut1"> 
                  <ion-icon  name="ios-appstore"></ion-icon>
                  <span> App Store</span>
-               </button>
-               <button class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+                </a>
+               <a href="https://play.google.com/store/apps/details?id=com.mink.styler" class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
                </svg>
                  <span>Google Play</span>
-               </button>
-               <button class="colorbut3"> 
+              </a>
+               <a href="https://styler-app.com/" class="colorbut3"> 
                 <ion-icon name="link"></ion-icon>
                 <span> Plus d'informations</span>
-              </button>
+               </a>
             </div>
             
             </section>
@@ -143,7 +156,7 @@
         <section class="aligne">
         <div class="descrip1">
           <span class="icologo"><img src="public/images/logo_digiskul.png" alt=""></span>
-              <span><p id="style">Digiskul</p></span>
+              <span><h2 id="style">Digiskul</h2></span>
         </div>
         <div class="textdescrp">
 
@@ -154,19 +167,19 @@
               évaluations hebdomadaires ainsi qu'un suivi 24h/24 effectué par un corps enseignant qualifié.</p>
 
               <div class="button">
-                <button class="colorbut1"> 
+                <a href="https://apps.apple.com/fr/app/pr%C3%A9pa-m%C3%A9dcine/id1506475391" class="colorbut1"> 
                  <ion-icon  name="ios-appstore"></ion-icon>
                  <span> App Store</span>
-               </button>
-               <button class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+                </a >
+               <a href="https://play.google.com/store/apps/details?id=com.venus.app.prepa_med" class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
                </svg>
                  <span>Google Play</span>
-               </button>
-               <button class="colorbut3"> 
+              </a>
+               <a href="https://www.facebook.com/PrepamedcineCameroun/" class="colorbut3"> 
                  <ion-icon name="link"></ion-icon>
                  <span> Plus d'informations</span>
-               </button>
+               </a>
              </div>    
           </section>
               </div>
@@ -180,7 +193,7 @@
          <section class="aligne">
          <div class="descrip1">
           <span class="icologo"><img src="public/images/logo_wevy.png" alt=""></span>
-              <span><p id="style">wevy</p></span>
+              <span><h2 id="style">wevy</h2></span>
         </div>
         <div class="textdescrp">
 
@@ -192,15 +205,15 @@
               <p>Enfin, le chat permet d'échanger entre pairs et crée une réelle interactio</p>
            
               <div class="button">
-                <button class="colorbut1"> 
+                <a href="" class="colorbut1"> 
                  <ion-icon  name="ios-appstore"></ion-icon>
                  <span> App Store</span>
-               </button>
-               <button class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+                </a>
+               <a href="" class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
                </svg>
                  <span>Google Play</span>
-               </button>
+              </a>
              </div>
             </section>
   
@@ -214,7 +227,7 @@
         <section class="aligne">
          <div class="descrip1">
           <span class="icologo"><img src="public/images/logo_roolette.png" alt=""></span>
-              <span><p id="style">Roolette</p></span>
+              <span><h2 id="style">Roolette</h2></span>
           </div>
         <div class="textdescrp">
 
@@ -226,15 +239,15 @@
              fois qu'ils se sont ajoutés mutuellement dans leurs listes de confiance.Roolette est une application
               qui mise tout sur le fun et la confidentialité pour séduire!</p>
               <div class="button">
-                <button class="colorbut1"> 
+                <a href="" class="colorbut1"> 
                  <ion-icon  name="ios-appstore"></ion-icon>
                  <span> App Store</span>
-               </button>
-               <button class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+                </a>
+               <a href="https://play.google.com/store/apps/details?id=studio.caelis.roulette" class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
                </svg>
                  <span>Google Play</span>
-               </button>
+              </a>
              </div>  
 
             </section>
@@ -248,7 +261,7 @@
       <div>
         <section class="aligne"> 
          <div class="descrip1"><span class="icologo"><img src="public/images/logo_otaku24.png" alt=""></span>
-              <span><p id="style">Otaku</p></span>
+              <span><h2 id="style">Otaku</h2></span>
         </div>
         <div class="textdescrp">
 
@@ -256,15 +269,15 @@
             Qu'il s'agisse d'exposition-vente ou de meeting, vous ne manquerez plus rien faute 
             d'information!</p>
             <div class="button">
-              <button class="colorbut1"> 
+              <a href="https://apps.apple.com/us/app/otaku-24/id1543099306" class="colorbut1"> 
                <ion-icon  name="ios-appstore"></ion-icon>
                <span> App Store</span>
-             </button>
-             <button class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+              </a>
+             <a href="https://play.google.com/store/apps/details?id=com.venus.app.otaku24" class="colorbut2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
                <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
              </svg>
                <span>Google Play</span>
-             </button>
+            </a>
            </div>
             </section>
   
@@ -278,8 +291,8 @@
   </section>
     <section id="partie3" class="data-spy">
       <div class="groupservice reveal ">
-        <span class="reveal-2"><img src="public/images/profile.jpg" alt=""></span>
-        <span class="reveal-1"><p>Nous croyons fermement que le développement logiciel est bien plus qu'un simple métier - c'est une
+        <span class="reveal-1"><img src="public/images/Group 3.png" alt=""></span>
+        <span class="reveal-2"><p>Nous croyons fermement que le développement logiciel est bien plus qu'un simple métier - c'est une
           véritable forme d'art.</p>
           <p> Guidés par cette conviction, nous nous efforçons de repousser les limites de la technologie et de créer des solutions
           logicielles exceptionnelles qui transforment votre quotidien.</p>
@@ -288,30 +301,54 @@
       </div>
       <div class="groupservice2 reveal ">
         <div>
-        <span><h2>Nos serrvice et offre</h2></span>
+        <span><h2 class="titreservice">Nos serrvice et offre</h2></span>
       </div>
       <div class="ofservice">
+       
         <span class="reveal-1 ">
-          <p>Pensez votre produit, nous le créons pour vous. Notre expérience est
-          notre premier témoin.</p></span>
-          <span>
-         <p> Rejoignez-nous dans notre quête de l'excellence technologique.</p>
-        </span>
-        <span>
+          <img class="icon1" src="public/icons/Group 3.svg" alt="">
+          <p>Rejoignez-nous dans notre quête de l'excellence technologique. Pensez votre produit, nous le créons pour vous. Notre expérience est
+          notre premier témoin. </p></span>
+        
+        <div class="reveal-2">
+          <img class="icon3" src="public/icons/icon3.svg" alt="">
          <p> Ensemble,nous façonnerons le futur de votre entreprise grâce à des solutions d'une qualité incomparable.</p>
-        </span>
-          <span>
+        </div>
+          <div class="reveal-3">
+            <img  class="icon4" src="public/icons/ico3.svg" alt="">
          <P> Le Studio Tech Caelis s'engage à réaliser vos rêves
           les plus ambitieux et à transformer votre vision en réalité, avec
           le souci du détail et la passion qui le distinguent.</p>
-        </span>
+          </div>
       </div>
         
-        <!--<span class="reveal-2"><img src="public/images/setup_2.svg" alt=""></span>-->
       </div>
     </section>
-    <section id="partie4" style="height: 100vh;" class="data-spy">
-
+    <section id="partie4"  class="data-spy">
+    <footer>
+      <div class="footer reveal ">
+      <div class="mad reveal-1">
+        <div class="contacts">
+          <img src="public/icons/phone.svg" alt=""><p>contacts</p>
+        </div>  
+        <div class="linkcontact">
+         <span><a href="mailto:arnold.wabo@gmail.com? subject=Merci de contacter caelis-tech.studio pour vos services"> arnold.wabo@gmail.com ↗</a></span> 
+         <div><a href="mailto:contact@caelis-tech.studio? subject=Merci de contacter caelis-tech.studio pour vos services "> contact@caelis-tech.studio ↗ </a></div> 
+          <a href="skype:+237 691898298?call">+237 691898298 ↗ </a>
+        </div>
+      </div>
+      <div class="mad reveal-2 ">
+        <div class="lega">
+          <img src="public/icons/shield.svg" alt=""><p>léga</p>
+        </div>
+        <div class="adress">
+          <p>CAELIS TECH STUDIO SARL</p>
+          <p>RCCM: RC/YAE/2022/B/3030</p>
+          <p>NIU: M092217596544A</p>
+        </div>
+      </div>
+    </div>
+     </footer>
 
     </section>
   </div>
