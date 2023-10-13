@@ -121,7 +121,17 @@ document.querySelector(".toggler").addEventListener("click",(e)=>{
   document.querySelector(".ball").classList.toggle('ballMove')
 })
 
+const hamburger = document.querySelector(".hamburger");
+const barrn = document.querySelector(".bar");
 
+hamburger.addEventListener("click",()=>{
+  hamburger.classList.toggle("active");
+  barrn.classList.toggle("active");
+})
+document.querySelectorAll(".nav-link").forEach(n=>n.addEventListener("click",()=>{
+  hamburger.classList.remove("active")
+  barrn.classList.remove("active")
+}))
 
 
 /*
